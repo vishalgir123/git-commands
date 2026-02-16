@@ -1,0 +1,97 @@
+🔹 1. Git Setup Commands
+✅ Version check
+git --version
+
+✅ Username set karo
+git config --global user.name "Your Name"
+
+✅ Email set karo
+git config --global user.email "you@example.com"
+
+✅ Config check karo
+git config --list
+
+🔹 2. Repository Create / Clone
+✅ Naya repo initialize karo
+git init
+
+✅ Remote repo clone karo
+git clone https://github.com/username/repository.git
+
+
+(GitHub ka official site: GitHub)
+
+🔹 3. File Add & Commit
+✅ File status check karo
+git status
+
+✅ File add karo (staging area me)
+git add filename
+
+✅ Sab files add karo
+git add .
+
+✅ Commit karo
+git commit -m "Your commit message"
+
+🔹 4. Branch Commands
+✅ Branch list dekho
+git branch
+
+✅ Nayi branch banao
+git branch branch-name
+
+✅ Branch switch karo
+git checkout branch-name
+
+✅ New branch + switch ek saath
+git checkout -b branch-name
+
+✅ Modern command (recommended)
+git switch branch-name
+
+🔹 5. Remote Commands
+✅ Remote add karo
+git remote add origin https://github.com/username/repo.git
+
+✅ Remote check karo
+git remote -v
+
+✅ Code push karo
+git push origin branch-name
+
+✅ Code pull karo
+git pull origin branch-name
+
+✅ Changes fetch karo
+git fetch
+
+🔹 6. Log & History
+✅ Commit history dekho
+git log
+
+✅ Short log
+git log --oneline
+
+🔹 7. Undo / Reset Commands
+✅ File unstage karo
+git restore --staged filename
+
+✅ Last commit undo (keep changes)
+git reset --soft HEAD~1
+
+✅ Hard reset (danger ⚠️)
+git reset --hard HEAD~1
+
+🔹 8. Merge
+✅ Branch merge karo
+git merge branch-name
+
+📌 Basic Git Workflow
+git init
+git add .
+git commit -m "message"
+git branch new-branch
+git checkout new-branch
+git push origin new-branch
+
