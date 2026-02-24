@@ -1,0 +1,91 @@
+🔹 What is Git?
+
+Git is a distributed version control system (DVCS) used to track changes in source code.
+
+It was created in 2005 by Linus Torvalds (the creator of Linux).
+
+🔹 Why Git Was Created?
+
+Before Git, developers faced problems:
+
+Code was overwritten
+
+No proper version history
+
+Difficult team collaboration
+
+Hard to manage large projects
+
+Git solved these problems by:
+
+✔ Tracking every change
+✔ Saving version history
+✔ Supporting team collaboration
+✔ Allowing branching and merging
+
+🔹 What is Version Control?
+
+Version control means:
+
+Managing and tracking different versions of a file or project.
+
+Example:
+
+Version 1 → Add login page
+Version 2 → Fix bug
+Version 3 → Add new feature
+
+Git saves all these versions safely.
+
+🔹 Important Features of Git
+1️⃣ Distributed System
+
+Every developer has a full copy of the project.
+
+2️⃣ Fast Performance
+
+Git is very fast compared to older systems.
+
+3️⃣ Branching
+
+You can create branches to work on new features.
+
+4️⃣ Merging
+
+Combine different branches.
+
+5️⃣ History Tracking
+
+See who changed what and when.
+
+🔹 Basic Git Workflow
+
+Create project → git init
+
+Add files → git add
+
+Save version → git commit
+
+Send to server → git push
+
+Get updates → git pull
+
+🔹 What is GitHub?
+
+GitHub is a web-based platform that hosts Git repositories online.
+
+It was launched in 2008 and later acquired by Microsoft in 2018.
+
+🔹 Why GitHub is Used?
+
+Git works locally.
+GitHub works online.
+
+GitHub allows:
+
+✔ Store code in cloud
+✔ Share code with others
+✔ Team collaboration
+✔ Pull requests
+✔ Issue tracking
+✔ CI/CD integration
